@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <Folder Include="Data\IRepository\" />
-    <Folder Include="Data\Models\" />
     <Folder Include="Data\ViewModels\" />
     <Folder Include="Data\Repository\" />
     <Folder Include="Extensions\" />

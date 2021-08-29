@@ -1,9 +1,6 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Aastha.Data.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Aastha.Data
 {
@@ -13,5 +10,7 @@ namespace Aastha.Data
         {
 
         }
+
+        public DbSet<Student> Student_Master { get; set; }
     }
 }

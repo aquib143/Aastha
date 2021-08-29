@@ -1,14 +1,12 @@
 ﻿using Aastha.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Aastha.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -22,7 +20,6 @@ namespace Aastha.Controllers
         {
             return View();
         }
-
         public IActionResult Privacy()
         {
             return View();

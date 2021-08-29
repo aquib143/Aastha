@@ -1,4 +1,4 @@
-﻿
+﻿@model Aastha.Data.ViewModels.LoginViewModel
 @{
     Layout = "";
 }
@@ -19,17 +19,12 @@
 
 </head>
 <body>
-
-
     <footer>
         <div class="social">
             <a href="tel:919595123456">+91-95951 23456 | </a>
             <a href="mailto:Aastha.eduacademy@gmail.com">aastha.eduacademy@gmail.com</a>
         </div>
     </footer>
-
-
-
 
     <div class="container-fluid">
         <div>
@@ -46,15 +41,20 @@
 
     <div class="login-page">
         <div class="form">
-            <form class="login-form" runat="server">
+            <form asp-action="Login" method="POST" class="login-form">
                 <h3 class="text-center">LOGIN</h3>
                 <hr />
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 @*<asp:Label ID="lblError" runat="server" CssClass="errorMessage"></asp:Label>*@
-                <input Class="input" placeholder="username" AutoComplete="off" />
-                <input Class="input" placeholder="Password" type="password"/>
-              
+                <input asp-for="Email" Class="input" placeholder="username" AutoComplete="off" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+
+                <input asp-for="Password" Class="input" placeholder="Password" type="password"/>
+                <span asp-validation-for="Password" class="text-danger"></span>
+
                 <button Class="button" runat="server" >LOGIN</button>
             </form>
+
         </div>
 </body>
 </html>

@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Aastha.Data.Models.Student>
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.11.0/datatables.min.css" />
+
+
+
+<table class="table-sm" id="myTable">
+    <thead>
+        <tr>
+            <th>Student Name</th>
+            <th>Email</th>
+            <th>Mobile No</th>
+            <th>Mobile No 2</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Student_Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email_Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Mobile_No)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Mobile_No2)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Student_Master_Id }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.Student_Master_Id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Student_Master_Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.11.0/datatables.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('#myTable').DataTable();
+    });
+</script>
