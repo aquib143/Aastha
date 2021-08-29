@@ -1,0 +1,207 @@
+﻿.mGrid {width:100%; background-color: #fff; margin: 5px 0 10px 0; border: solid 1px #525252; border-collapse:collapse; }
+.mGrid td { padding: 2px; border: solid 1px #c1c1c1; color: #717171; font-size: 14px;}
+.mGrid th { padding: 4px 2px; color: #fff; background: #424242 url(images/grd_head.png) repeat-x top; border-left: solid 1px #525252; font-size: 14px; font-weight:bold; }
+.mGrid .alt { background: #fcfcfc url(images/grd_alt.png) repeat-x top; }
+.mGrid .pgr {background: #424242 url(images/grd_pgr.png) repeat-x top; }
+.mGrid .pgr table { margin: 5px 0; }
+.mGrid .pgr td { border-width: 0; padding: 0 6px; border-left: solid 1px #666; font-weight: bold; color: #fff; line-height: 12px; }   
+.mGrid .pgr a { color: #666; text-decoration: none; }
+.mGrid .pgr a:hover { color: #000; text-decoration: none; }
+.mGrid th a{ color:#fff; }
+.mGrid th A:hover {color: #ff0000;/*background-color:#ffff00;*/}
+.mGrid td a{ color:#000; text-decoration:underline;  width:500px; font-size:14px;}
+
+.gridLink{ width:150px;}
+.gridLinkBig{ width:300px;}
+
+.welcometext
+{}
+
+.heading{font-family: DINPro-Medium, Arial, Verdana, Helvetica, sans-serif;font-size: 15px;	font-weight: bold;	color: #000000;	background-color:#F2F2F2;text-decoration: none;	padding-right: 5px;	padding-left: 5px;height:30px;}
+.headingTitle{font-family: DINPro-Medium, Arial, Verdana, Helvetica, sans-serif;font-size: 15px;	font-weight: bold;	color: #000000;	background-color:#D0DEF0;text-decoration: none;	padding-right: 5px;	padding-left: 5px;height:20px;}
+.headingTitlePopup
+{font-family: DINPro-Medium, Arial, Verdana, Helvetica, sans-serif;
+ font-size: 15px; font-weight: bold;	color: #000000;	background-color:#D0DEF0;text-decoration: none; padding:2px 0 0 5px;}
+
+.errorMessage
+{
+	color: Red;
+	font-weight: bold;
+}
+
+.login-text
+{
+	font-family: DINPro-Medium, Arial, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.nolink {  font-family: DINPro-Medium, Arial, Verdana, Helvetica, sans-serif; font-size: 12px; font-style: normal; line-height: normal; font-weight: normal; color: #FFFFFF; text-decoration: none}
+
+a.disclaimer, a.disclaimer:link, a.disclaimer:active, a.disclaimer:hover, a.disclaimer:visited {
+color: #666666; 
+font-family: DINPro-Medium, Arial, Verdana, Helvetica, sans-serif;
+font-size: 11px; 
+text-decoration: none;
+}
+a{
+color: #000000;
+font-family: DINPro-Medium, Arial, Verdana, Helvetica, sans-serif;
+font-size: 11px;
+text-decoration: none
+}
+/*a:hover {
+color: #ff0000;
+background-color:#ffff00;
+}*/
+a.imghref:hover { border: 0 none; 
+	text-decoration: none; 
+}
+
+.msgModify{	font-family: DINPro-Medium, Arial, Verdana, Helvetica, sans-serif;	color: #000000;	text-decoration: none;	font-weight: bold;	font-size: 12px;	font-style: normal;}	
+.onepixheight {	line-height: 1px;}    
+.thirteenpixheight {	line-height: 13px;}
+.dashboardrowsep{	line-height: 10px;}
+
+.button	{font-family: DINPro-Medium, Arial, Verdana, Helvetica, sans-serif;height:18px;  color: #fff; font-size:12px; background: url(images/button.png) repeat-x top; border:0; width:70px; }
+.button_2	{font-family: DINPro-Medium, Arial, Verdana, Helvetica, sans-serif;height:18px;  color: #fff; font-size:12px; background: url(images/button.png) repeat-x top; border:0; width:150px; }
+.buttonHome	{font-family: DINPro-Medium, Arial, Verdana, Helvetica, sans-serif;height:23px;  color: #fff; font-size:12px; background: url(images/btnImg.gif) repeat-x top; border:0; width:125px; }
+.buttonSmall	{font-family: DINPro-Medium, Arial, Verdana, Helvetica, sans-serif;height:18px;  color: #fff; font-size:18px; background: url(images/button.png) repeat-x top; border:0; width:18px; }
+.buttonBig
+{
+	font-size:14px; font-weight:bold; border:0; width:auto; height:30px; background: white; color:Black;
+	padding: 0 15px 0 15px;
+	background: #76C6FF;
+	border:solid 2px #2E709F;
+	border-radius:5px;
+	}
+.buttonBig:hover {color:White; background:#2E709F; }
+
+.image {width: 100px;	padding-right: 2px; height:118px; }
+.vendorLogo {width: 130px;	height:80px; }
+
+.labelData {	font-family: DINPro-Medium, Arial, Helvetica, sans-serif;	font-size: 12px; background-color:White ;	color: #000000;	text-decoration: none;	width: 100px;	padding-right: 2px;	padding-left: 2px;	border: 1px solid #664713;}
+.label-clock {	font-family: Helvetica, sans-serif;	font-size: 14px; background-color:White ; color: #000000;	text-decoration: none;	padding-right: 2px;	padding-left: 2px;	border: 1px solid #664713;}
+
+.textbox {	font-family: DINPro-Medium, Arial, Verdana, Helvetica, sans-serif;	font-size: 12px;	color: #000000;	text-decoration: none;	width: 200px;	padding-right: 2px;	padding-left: 2px;	border: 1px solid #664713;}
+.textboxsmall {	font-family: DINPro-Medium, Arial, Verdana, Helvetica, sans-serif;	font-size: 12px;	color: #000000;	text-decoration: none;	width: 100px;	padding-right: 2px;	padding-left: 2px;	border: 1px solid #664713;}
+.textboxsmaller {	font-family: DINPro-Medium, Arial, Verdana, Helvetica, sans-serif;	font-size: 12px;	color: #000000;	text-decoration: none;	width: 50px;	padding-right: 2px;	padding-left: 2px;	border: 1px solid #664713;}
+.textboxBig {	font-family: DINPro-Medium, Arial, Verdana, Helvetica, sans-serif;	font-size: 12px;	color: #000000;	text-decoration: none;	width: 375px;	padding-right: 2px;	padding-left: 2px;	border: 1px solid #664713;}
+.textMultiField_2 {	font-family: DINPro-Medium, Arial, Verdana, Helvetica, sans-serif;	font-size: 12px;	color: #000000;	text-decoration: none;	width: 200px;	padding-right: 2px;	padding-left: 2px;	border: 1px solid #664713;}
+.textMultiField_3 {	font-family: Arial, Helvetica, sans-serif;	font-size: 12px;	color: #000000;	text-decoration: none;	width: 300px; height: 100px;	padding-right: 2px;	padding-left: 2px;	border: 1px solid #664713;}
+.textboxFull {	font-family: DINPro-Medium, Arial, Verdana, Helvetica, sans-serif;	font-size: 16px;	color: #000000;	text-decoration: none;	width: 650px; height: 50px;	padding-right: 2px;	padding-left: 2px;	border: 1px solid #664713;}
+
+.textboxFont {	font-family: Arial;	font-size: 16px;	color: #000000;	text-decoration: none;	width: 200px;	padding-right: 2px;	padding-left: 2px;	border: 1px solid #664713;}
+.dropdownFont {	font-family: Arial;	font-size: 16px;	color: #000000;	text-decoration: none;width: 200px;}
+
+.menu{font-family: DINPro-Medium, Arial, Verdana, Helvetica, sans-serif; height:18px; color: White; font-size:12px; 
+	background:url(images/shade.gif) repeat-x top;
+	border:0; width:98%; text-align:center; padding:5px 0 0 10px;}
+
+.menu A { margin-right:10px; color:Black; 
+	}	
+.menu A:hover {
+color: #ff0000;
+/*background-color:#ffff00;*/
+font-weight:bold;
+}
+
+.dropdown {	font-family: DINPro-Medium, Arial, Verdana, Helvetica, sans-serif;	font-size: 12px;	color: #000000;	text-decoration: none;width: 174px; height: 26px;}
+.dropdownDate {	font-family: DINPro-Medium, Arial, Verdana, Helvetica, sans-serif;	font-size: 12px;	color: #000000;	text-decoration: none;width: 70px;}
+.dropdownBig {	font-family: DINPro-Medium, Arial, Verdana, Helvetica, sans-serif;	font-size: 12px;	color: #000000;	text-decoration: none;width: 375px;}
+.dropdownsmall{	font-family: DINPro-Medium, Arial, Verdana, Helvetica, sans-serif;	font-size: 12px;	color: #000000;	text-decoration: none;width: 100px;}
+.dropdownsmaller{font-family: DINPro-Medium, Arial, Verdana, Helvetica, sans-serif;	font-size: 12px;	color: #000000;	text-decoration: none;width: 50px;}
+
+.caption{padding-right: 2px;  vertical-align:top; }
+.data{padding-right: 2px; vertical-align:top;}
+
+.captionmandatory{padding-right: 2px;  vertical-align:top; }
+.datamandatory{padding-right: 2px; vertical-align:top;}
+
+.mandatory{padding-right: 2px; color:Red;}
+.dataheading{padding-right: 2px;background:url(images/Border.gif); font-size:11px; font-weight:bold;}
+.dataheadingLine{padding-right: 2px;background:url(images/DataHeadLineS.gif); font-size:11px; font-weight:bold;}
+
+.datatable{ padding-right: 2px;	padding-left: 2px;padding-top:5px; padding-bottom:3px;}
+.datatable td{ padding-right: 2px;	padding-left: 2px;padding-bottom:2px;padding-top:5px;}
+
+.slabBold{padding-right: 4px;	padding-left: 4px; font-weight:bold;	}
+.slabGeneral{padding-right: 2px;	padding-left: 2px; padding-top:3px; padding-bottom:3px;	}
+.slabGeneral td { padding-right: 5px;	padding-left: 5px;}
+
+.error{ color:Red;}
+
+.navigatemenu{font-family: DINPro-Medium, Arial, Verdana, Helvetica, sans-serif;	font-size: 12px; 	color: #000000; background:url(images/gb.png);padding-right: 2px;	padding-left: 2px; padding-top:3px; padding-bottom:3px;}
+.navigatemenu-background{background:url(images/gb.png); padding-right: 2px;	padding-left: 2px; padding-top:2px; padding-bottom:2px;}
+
+.usercaptionmandatory{padding-right: 2px;  vertical-align:top;width:250px; }
+
+.FilterControl{	padding-right: 2px;	padding-left: 2px;}
+.tdfiltercontrol{ height:10px;}
+
+.td_bg_selected_search{background-color:#23A4AB;font-family: Tahoma, Verdana, Arial, 'trebuchet MS' ; font-size:11px; color:#ffffff;line-height:18px;padding-left:0px; font-weight:lighter}
+
+.adminRowHeading{height:20px;padding-left: 5px; font-family: DINPro-Medium, Arial, Verdana, Helvetica, sans-serif;font-size: 12px;color: #000000; font-weight:bold;}
+
+.TV{background-color:#fcfcfc;font-family: Tahoma, Verdana, Arial, trebuchet MS ; font-size:11px; color:#ffffff; padding-left:20px;}
+.TVSelected{background-color:#23A4AB;font-family: Tahoma, Verdana, Arial, trebuchet MS ; font-size:11px; color:#ffffff; padding-left:20px;}
+
+/* Select Popup*/
+.pickup{background-color:#23A4AB; border: solid 1px #525252; border-collapse:collapse;}
+
+.sGrid { width: 100%; background-color: #fff; border: solid 1px #525252; border-collapse:collapse; }
+    .sGrid td {  border: solid 1px #c1c1c1; color: #717171; }
+    .sGrid th { padding: 4px 2px; color: #fff; background: #424242 url(images/grd_head.png) repeat-x top; border-left: solid 1px #525252; font-size: 0.9em; font-weight:bold; }
+.sGrid .alt { background: #fcfcfc url(images/grd_alt.png) repeat-x top; }
+.sGrid .pgr {background: #424242 url(images/grd_pgr.png) repeat-x top; }
+    .sGrid .pgr table { margin: 5px 0; }
+    .sGrid .pgr td { border-width: 0; padding: 0 6px; border-left: solid 1px #666; font-weight: bold; color: #fff; line-height: 12px; }   
+    .sGrid .pgr a { color: #666; text-decoration: none; }
+    .sGrid .pgr a:hover { color: #000; text-decoration: none; }
+    .sGrid th a{ color:#fff;}
+.sGrid th  A:hover {
+color: #ff0000;
+/*background-color:#ffff00;*/
+}
+/* End Select Popup*/
+
+
+.transDiv {        
+    background-color:Gray;    
+	position:fixed;
+	left:0px;
+	top:0px;
+	width:2000px;
+	height:1768px;             
+    opacity:0.5;    
+    filter:alpha(opacity=50);   
+    z-index:10000;
+} 
+
+.showDiv 
+{
+	background-color:White;   
+	position:fixed;
+    z-index:10001;
+    left:450px;
+	top:300px;
+}
+.showDivWidth
+{
+	width:10px;
+}
+
+.showDivList
+{
+	background-color:#F2F2F2;   
+    margin-left:50px;
+	position:fixed;
+    z-index:10001;
+    width:900px;
+    height:450px;
+    top:60px;
+}
+ 	
+.showDivListWidth
+{
+}

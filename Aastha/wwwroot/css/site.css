@@ -1,0 +1,111 @@
+﻿
+section {
+    height: 30px;
+    background: #337ab7;
+    width: 100%;
+}
+
+h4 {
+    margin-top: 15px;
+}
+
+section a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.site {
+    margin-top: 10%;
+}
+
+.table-responsive div {
+    margin: 5px;
+}
+
+@media only screen and (max-width: 320px) {
+    .site {
+        margin-top: 5%;
+    }
+
+    section a {
+        font-size: 11px;
+    }
+
+    .site .site-title {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 468px) {
+    section a {
+        font-size: 14px;
+    }
+
+    .site .site-title {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 840px) {
+    section a {
+        font-size: 16px;
+    }
+
+    .site .site-title {
+        font-size: 28px;
+    }
+
+    .site .site-description {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .btn-mob {
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .btn-mob {
+        width: 40%;
+        margin: 10px 0px 10px 20px;
+    }
+}
+
+.excel-img, .result {
+    margin-top: 15px;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    margin: 10px 0px;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #000;
+    text-align: center;
+}
+
+
+
+
+.fa-share-alt {
+    background: #3B5998;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 16px;
+    width: 36px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 5px;
+    transition: all 0.9s;
+}

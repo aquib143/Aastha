@@ -1,0 +1,144 @@
+﻿body 
+{
+	font-family: 'DINPro-Medium', Arial, Verdana, Helvetica, sans-serif;
+	font-size:13px;
+	margin: 0;
+	padding: 0;
+}
+
+.main_resize 
+{
+	margin:0 auto auto;
+	width:1000px;
+}
+
+#menu{
+width:1000px;
+height:50px;
+padding-top:0;
+}
+#logo{
+float:left;
+}
+#link{
+float:right;
+}
+#link ul{
+padding:0px;
+margin:0px;
+list-style:none;
+}
+#link li{
+list-style:none;
+float:right;
+color:#2E709F;
+display:block;
+margin-left:15px;
+font-size:1.0em;
+padding-top:12px;
+cursor:pointer;
+}
+#link a:link {
+color:#2E709F;
+text-decoration: none;
+}
+
+#link a:visited {
+color:#2E709F;
+text-decoration: none;
+}
+
+#link a:hover {
+color:black;
+text-decoration: none;
+}
+
+#link a:active {
+color:#2E709F;
+text-decoration: none;
+}
+
+.footerAqua
+{
+	font-size:13px;
+    background-color:#2E709F;
+    color:White;
+    text-align:center;
+    height: 25px;
+    padding-top: 8px;
+}
+.textTitle
+{
+	font-size:15px;
+	font-weight:bold;
+    background-color:#2E709F;
+    color:White;
+    height: 25px;
+    padding: 0 0 0 10px;
+}
+
+
+
+
+
+
+
+
+
+#lmenu{
+float:left;
+width:200px;
+height:auto;
+margin:1px 6px 0px 0px;
+}
+#lmenu ul{
+padding:7px 0px 1px 0px;
+margin:0px;
+background:#2E709F;
+}
+#lmenu li{
+padding:5px;
+margin:1px;
+text-align:left;
+list-style:none;
+background:white;
+cursor:pointer;
+}
+#lmenu li:hover{
+background:#ecedee;
+}
+#lmenu li a
+{
+	font-size: 16px;
+}
+
+#dbd{
+float:left;
+}
+
+.link, .link1, .link2, .link4, .link5{
+}
+.sublink, .sublink1, .sublink2, .sublink4, .sublink5{
+display:none;
+color:red;
+background:#ecedee;
+}
+
+.divBoxShadow
+{
+	margin-top: 10px;
+	padding-left:20px;
+	border:solid 1px #dedede;
+	box-shadow: 5px 5px 5px 0px #ccc;	
+	border-radius:5px;
+}
+
+.box { border:solid 1px #dedede; display:table; padding:0; width:100%; }
+.box h2{ display:table-cell; width:150px; background:url(images/box-title.gif) no-repeat; font-size:11px;  color:#A19FA0; padding-left:10px; line-height:20px;}
+.box h3{ display:table-row; background:url(images/box-center.gif) no-repeat; background-position:center; text-align:center; font-size:11px;  line-height:11px;}
+.box h4{ display:table-row; background:url(images/box-center.gif) no-repeat; background-position:center; text-align:center; font-size:11px;  line-height:20px; color:#A19FA0;}
+.box-content { padding: 0 5px 0 5px; color:#4A6DA9; text-align:center; }
+.box-normal-content { padding: 0 5px 0 5px; text-align:center;} 
+.box-bold-content { padding: 5px 5px 0 5px; text-align:center;  font-size:21px; color:#A19FA0;}
+
+.search { min-height:40px;}

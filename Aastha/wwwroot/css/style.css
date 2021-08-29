@@ -1,0 +1,165 @@
+﻿body
+{
+	font-family: 'DINPro-Medium', Arial, Verdana, Helvetica, 'sans-serif';
+	font-size: 11px;
+	margin:0;
+}
+.bodyStyle{background-color:#F2F2F2;}
+
+.topHeader { font-family: DINPro-Medium, Arial; background: url(../css/images/topheaderbar.gif) repeat-x;	height: 59px; color: White;	font-size: 30px; padding-left: 10px; padding-top:0;}
+.topHeader a{	color:White;}
+.topHeaderLeft{	font-size: 11px;	padding-left: 10px;	font-family: Verdana;}
+
+
+.HomeTDstyle{
+display:block;
+margin:30px 0 10px 0;
+padding:5px 0 5px 8px;
+background:#eee url(images/gradient2.png) repeat-x;
+border-top:1px solid #ddd;
+border-right:1px solid #bbb;
+border-bottom:1px solid #bbb;
+border-left:1px solid #ddd;
+text-decoration:none ;
+font-size:20px;
+padding-left:10px;
+font-family:Verdana;
+
+}
+
+.HomeTDText{
+margin:30px 0 10px 0;
+padding:5px 0 5px 8px;
+background:#eee url(images/gradient2.png) repeat-x;
+text-decoration:none ;
+font: bold 12px
+font-size:12px;
+padding-left:5px;
+font-family:Verdana;
+
+}
+/* End */
+
+.HomeBorderHeader
+{
+font: bold 13px Times;
+color: WHITE;
+padding:2px;
+background:#eee url(images/grd_head.png) repeat-x;
+}
+.HomeHeader
+{
+	background-color:#deecfd;
+	border:1px solid #8db2e3
+	padding-left:10px;
+}
+
+.tdborder
+{
+	border-width:thin;
+	border-color:White;
+}
+
+.homeAdminPanelTable{ padding-right: 2px; padding-left:40px;}
+.homeAdminPanelTable td{padding-left:20px;}
+
+.chkboxlist INPUT
+{
+ COLOR: black;
+ border-style: none;
+ font-family: Tahoma;
+ font-size: 11px;
+ margin-right: 5px;
+ vertical-align:top;
+ 
+} 
+
+
+.fullScreen {        
+    background-color:White;    
+	position:fixed;
+	left:0px;
+	top:0px;
+	width:2000px;
+	height:1768px;             
+    z-index:50000;
+} 
+
+.LoginTextHeader{
+
+margin:30px 0 10px 0;
+padding:2px 0 2px 8px;
+background:#eee url(images/shade2.jpg) repeat-x;
+font: bold 14px
+font-size:12px;
+font-family:Verdana;
+height:10px
+
+} 
+
+.main-resize 
+{
+	margin: 0 auto auto;
+	position: relative;
+	width: 99.9%;
+	height: 100%;
+	/*border: solid 0.5px #2E709F;*/
+	display:table;
+}
+
+.main-individual
+{
+	position: relative; 
+	width: 100%; 
+	clear: both; 
+	overflow: hidden;
+	display:table-row;
+}
+
+.clear{clear:both;}
+
+.webtable{ padding-right: 2px;	padding-left: 2px; padding-top:5px; padding-bottom:3px;}
+.webtable td{ padding-right: 2px; padding-left: 2px; padding-bottom:0; padding-top:0;}
+
+.webtable_1{ padding-right: 2px; padding-left: 2px; background: #2E709F;}
+
+
+.main-individual-logo
+{
+	position: relative; 
+	background: #242424;
+	width: 100%; 
+	clear: both; 
+	overflow: hidden;
+	display:table-row;
+}
+.logo a{
+	float:left;
+	margin: 10px 0;
+    color:#fff;
+    font-size: 24px;
+}
+/********** Login & registration *************/
+.log_reg{
+	border-right: 1px solid rgb(60, 60, 60);
+	padding: 5px 20px;
+	float:right;
+}
+.log_reg ul li{
+	display: inline-block;
+}
+.log_reg li a{
+	font-family: 'Maven Pro', 'sans-serif';
+	font-size: medium;
+	display: block;
+	padding: 0px 8px;
+	color: White;
+	text-transform: uppercase;
+	-webkit-text-stroke: 0.5px;
+}
+
+.panel-left{
+	float:left;
+	margin: 0 0 0 10px;
+	width: 900px;
+}

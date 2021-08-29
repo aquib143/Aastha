@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+        <title>Ashtha</title>
+
+        <script type="text/javascript">
+            function trim(strValue) {
+                var s = new String(strValue);
+                return s.replace(/^\s*/, "").replace(/\s*$/, "");
+
+            }
+            function confirmDelete() {
+                return confirm('Are you sure you want to delete?')
+            }
+        </script>
+        <script type="text/javascript">
+            function Left(str, n) {
+                if (n <= 0)
+                    return "";
+                else if (n > String(str).length)
+                    return str;
+                else
+                    return String(str).substring(0, n);
+            }
+            function Right(str, n) {
+                if (n <= 0)
+                    return "";
+                else if (n > String(str).length)
+                    return str;
+                else {
+                    var iLen = String(str).length;
+                    return String(str).substring(iLen, iLen - n);
+                }
+            }
+        </script>
+        <script type="text/javascript">
+            function chkNumeric(clid) {
+                var val = "0123456789.";
+                var cntValue = "";
+                var i = 0;
+                if (clid.value != "") {
+                    cntValue = clid.value;
+                    for (i = 0; i <= cntValue.length - 1; i++) {
+                        if (val.indexOf(cntValue.charAt(i)) == -1) {
+                            alert("Enter Numeric Value!");
+                            clid.value = "";
+                            clid.focus();
+                            break;
+                        }
+                    }
+                }
+                chkProperNumeric(clid);
+            }
+            function chkProperNumeric(clid) {
+                var val = clid.value;
+                if (val.charAt(val.length - 1) == ".") {
+                    alert("Improper Numeric Value!");
+                    clid.value = "";
+                }
+            }
+        </script>
+
+        <link rel="stylesheet" href="~/css/site.css" />
+
+        <link rel="icon" href="~/css/images/Aastha.jpg">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+        <link rel="stylesheet" href="~/cal/jquery-ui.css" />
+        <script type="text/javascript" src="~/cal/jquery.js"></script>
+        <script type="text/javascript" src="~/cal/jquery-ui.js"></script>
+
+        <script type="text/javascript" src="~/js/supports.js"></script>
+        <script type="text/javascript" src="~/Controls/ajaxPopup.js"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+
+</head>
+<body>
+     @*Header*@
+    <div class="container">
+        <div class="row">
+            <div class=" col-md-3 col-xs-4">
+                <a href="#">
+                    <img class="img-responsive" src="~/css/images/Aastha.jpg" />
+                </a>
+            </div>
+            <div class="col-md-6 col-xs-6">
+                <div class="site">
+                   
+                    <p class="site-title"><a href="#" rel="home">Aastha Coaching Classes</a></p>
+
+                    <p class="site-description">Best Coaching Classes in Ulhasnagar</p>
+                </div>
+            </div>
+
+
+
+            <div style="float:right">
+                <div class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="http://aastha.aakaarinfotech.com/Forms/frmRegister.aspx" data-a2a-title="Aastha Classes">
+                    <a class="a2a_dd" href="https://www.addtoany.com/share"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                </div>
+                <script>
+                    var a2a_config = a2a_config || {};
+                    a2a_config.onclick = 1;
+                </script>
+                <script async src="https://static.addtoany.com/menu/page.js"></script>
+            </div>
+
+        </div>
+    </div>
+     @*End Header*@ 
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2021 - Aastha - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

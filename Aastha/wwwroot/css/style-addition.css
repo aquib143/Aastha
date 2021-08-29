@@ -1,0 +1,12 @@
+﻿.line
+{
+	position:relative;
+	background-color: #2E709F;
+	width:100%;
+}
+
+.login-text
+{
+	font-size: 12px;
+	font-weight: bold;
+}
